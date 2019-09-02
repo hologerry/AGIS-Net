@@ -1,7 +1,7 @@
 # AGIS-Net
 
 ## Introduction
-This is the official PyTorch implementation of the [Artistic Glyph Image Synthesis via One-Stage Few-Shot Learning](AGIS-Net.pdf).
+This is the official PyTorch implementation of the Artistic Glyph Image Synthesis via One-Stage Few-Shot Learning.
 
 - **Architecture**
 ![Architecture](imgs/architecture.png)
@@ -129,7 +129,6 @@ If you find our work is helpful, please cite our paper:
   issue_date = {November 2019},
   volume = {38},
   number = {6},
-  month = nov,
   year = {2019},
   articleno = {185},
   numpages = {12},
