@@ -1,35 +1,40 @@
 # AGIS-Net
 
 ## Introduction
-This is the official PyTorch implementation of the Artistic Glyph Image Synthesis via One-Stage Few-Shot Learning.
 
-- **Architecture**
+This is the official PyTorch implementation of the Artistic Glyph Image Synthesis via One-Stage Few-Shot Learning. [paper]()
+
+## Abstract
+
+Automatic generation of artistic glyph images is a challenging task that attracts many research interests. Previous methods either are specifically designed for shape synthesis or focus on texture transfer. In this paper, we propose a novel model, AGIS-Net, to transfer both shape and texture styles in one-stage with only a few stylized samples. To achieve this goal, we first disentangle the representations for content and style by using two encoders, ensuring the multi-content and multi-style generation. Then we utilize two collaboratively working decoders to generate the glyph shape image and its texture image simultaneously. In addition, we introduce a local texture refinement loss to further improve the quality of the synthesized textures. In this manner, our one-stage model is much more efficient and effective than other multi-stage stacked methods. We also propose a large-scale dataset with Chinese glyph images in various shape and texture styles, rendered from 35 professional-designed artistic fonts with 7,326 characters and 2,460 synthetic artistic fonts with 639 characters, to validate the effectiveness and extendability of our method. Extensive experiments on both English and Chinese artistic glyph image datasets demonstrate the superiority of our model in generating high-quality stylized glyph images against other state-of-the-art methods.
+
+## Model Architecture
+
 ![Architecture](imgs/architecture.png)
 
-  Skip Connection               |  Local Discriminator
-  :----------------------------:|:-------------------------:
-  ![](imgs/skipconnection.png)  |  ![](imgs/localpatch.png)
-
+Skip Connection               |  Local Discriminator
+:----------------------------:|:-------------------------:
+![skip-connection](imgs/skipconnection.png)  |  ![local-discriminator](imgs/localpatch.png)
 
 ## Demo
 
-![](imgs/comparison.png)
+![comparison](imgs/comparison.png)
 
-![](imgs/comparison-cn.png)
+![comparison](imgs/comparison-cn.png)
 
-![](imgs/across_language.png)
-
+![across_languae](imgs/across_language.png)
 
 ## Prerequisites
-- Linux or macOS
+
+- Linux
 - CPU or NVIDIA GPU + CUDA cuDNN
 - Python 3
 - PyTorch 0.4.0+
 
-
 ## Get Started
 
 ### Installation
+
 1. Install PyTorch, torchvison and dependencies from [https://pytorch.org](https://pytorch.org)
 2. Install python libraries [visdom](https://github.com/facebookresearch/visdom) and [dominate](https://github.com/Knio/dominate):
    ```shell
@@ -105,21 +110,20 @@ Please refer to the [data](data/) for more details about our datasets and how to
   bash ./scripts/test_base_gray_texture.sh GPU_ID DATA_ID
   ```
 
-
-
 ## Acknowledgements
+
 This code is inspired by the [BicycleGAN](https://github.com/junyanz/BicycleGAN).
 
 Special thanks to the following works for sharing their code and dataset.
-* [pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
-* [MSGAN](https://github.com/HelenMao/MSGAN)
-* [MC-GAN](https://github.com/azadis/MC-GAN)
-* [TET-GAN](https://github.com/williamyang1991/TET-GAN)
-* [EMD](https://github.com/zhyxun/Separating-Style-and-Content-for-Generalized-Style-Transfer)
 
-
+- [pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
+- [MSGAN](https://github.com/HelenMao/MSGAN)
+- [MC-GAN](https://github.com/azadis/MC-GAN)
+- [TET-GAN](https://github.com/williamyang1991/TET-GAN)
+- [EMD](https://github.com/zhyxun/Separating-Style-and-Content-for-Generalized-Style-Transfer)
 
 ## Citation
+
 If you find our work is helpful, please cite our paper:
 ```
 @article{Gao2019Artistic,
@@ -138,4 +142,5 @@ If you find our work is helpful, please cite our paper:
 ```
 
 ## Copyright
+
 The code and dataset are only allowed for PERSONAL and ACADEMIC usage.
