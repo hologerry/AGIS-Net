@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the official PyTorch implementation of the Artistic Glyph Image Synthesis via One-Stage Few-Shot Learning. [paper]()
+This is the official PyTorch implementation of the Artistic Glyph Image Synthesis via One-Stage Few-Shot Learning. [paper](http://arxiv.org/abs/1910.04987)
 
 ## Abstract
 
