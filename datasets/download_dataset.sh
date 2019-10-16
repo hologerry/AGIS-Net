@@ -10,6 +10,6 @@ echo "Specified [$FILE]"
 URL=http://59.108.48.27/dualnet_public_release/$FILE.zip
 ZIP_FILE=./datasets/$FILE.zip
 TARGET_DIR=./datasets/
-wget -N $URL -O $TAR_FILE
+wget -N $URL -O $ZIP_FILE
 tar -zxvf $ZIP_FILE -C ./datasets/
 rm $ZIP_FILE
