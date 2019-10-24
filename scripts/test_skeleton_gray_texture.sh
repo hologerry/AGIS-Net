@@ -1,6 +1,7 @@
 set -ex
 # misc
 GPU_ID=$1   # gpu id
+DATA_ID=$2
 # models
 RESULTS_DIR='./results/skeleton_gray_texture_'${DATA_ID}
 MODEL='agisnet'
