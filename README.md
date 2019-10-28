@@ -49,7 +49,7 @@ Skip Connection               |  Local Discriminator
 4. Download the offical pre-trained vgg19 model: [vgg19-dcbb9e9d.pth]('https://download.pytorch.org/models/vgg19-dcbb9e9d.pth'), and put it under the models/ folder
 
 ### Datasets
-Download the datasets using the following script, four datasets are available.
+Download the datasets using the following script, four datasets and the raw average font style glyph image are available.
 > It may take a while, please be patient
 ```
 bash ./datasets/download_dataset.sh DATASET_NAME
