@@ -1,7 +1,7 @@
 FILE=$1
 
-if [[ $FILE != "base_gray_color" && $FILE != "base_gray_texture" &&  $FILE != "skeleton_gray_color" && $FILE != "skeleton_gray_texture" ]]; then
-  echo "Available datasets are base_gray_color, base_gray_texture, skeleton_gray_color and skeleton_gray_texture"
+if [[ $FILE != "base_gray_color" && $FILE != "base_gray_texture" &&  $FILE != "skeleton_gray_color" && $FILE != "skeleton_gray_texture" && $FILE != "average_skeleton" ]]; then
+  echo "Available datasets are base_gray_color, base_gray_texture, skeleton_gray_color, skeleton_gray_texture and average skeleton"
   exit 1
 fi
 

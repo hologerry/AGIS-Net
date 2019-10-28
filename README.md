@@ -58,6 +58,7 @@ bash ./datasets/download_dataset.sh DATASET_NAME
 - `base_gray_texture` English artistic glyph image dataset, proposed by [MC-GAN](https://arxiv.org/abs/1712.00516).
 - `skeleton_gray_color` Chinese synthesized gradient glyph image dataset by us.
 - `skeleton_gray_texture` Chinese artistic glyph image dataset proposed by us.
+- `average_skeleton` Raw Chinese avgerage font style (skeleton) glyph image dataset proposed by us.
 
 Please refer to the [data](data/) for more details about our datasets and how to prepare your own datasets.
 
