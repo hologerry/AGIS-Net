@@ -49,3 +49,6 @@ abc_dataset/
 ```
 
 Please read the `xxx_dataset.py` files, you can get more details.
+
+## Chinese average font style(skeleton)
+The average skeleton glyph image dataset including 6763 common used characters' glyph images with size 320X320. You can also download it via the `download_dataset.sh` script.
