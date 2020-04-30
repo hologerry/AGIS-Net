@@ -48,7 +48,7 @@ Skip Connection               |  Local Discriminator
    git clone -b master --single-branch https://github.com/hologerry/AGIS-Net
    cd AGIS-Net
    ```
-4. Download the offical pre-trained vgg19 model: [vgg19-dcbb9e9d.pth]('https://download.pytorch.org/models/vgg19-dcbb9e9d.pth'), and put it under the models/ folder
+4. Download the offical pre-trained vgg19 model: [vgg19-dcbb9e9d.pth](https://download.pytorch.org/models/vgg19-dcbb9e9d.pth), and put it under the models/ folder
 
 ### Datasets
 Download the datasets using the following script, four datasets and the raw average font style glyph image are available.
