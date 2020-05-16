@@ -51,7 +51,7 @@ Skip Connection               |  Local Discriminator
 4. Download the offical pre-trained vgg19 model: [vgg19-dcbb9e9d.pth](https://download.pytorch.org/models/vgg19-dcbb9e9d.pth), and put it under the models/ folder
 
 ### Datasets
-The datasets server is down, you can download the datasets from [PKU Disk](https://disk.pku.edu.cn:443/link/1ED102D95ADF785992CB4C618AF6F0BF).
+The datasets server is down, you can download the datasets from [PKU Disk](https://disk.pku.edu.cn:443/link/1ED102D95ADF785992CB4C618AF6F0BF), [Dropbox](https://www.dropbox.com/sh/76axfikky9m3r3a/AABZZ7Xw6rlRpt8A7lGw1yK9a?dl=0) or [MEGA](https://mega.nz/folder/35oTkZbK#yq6u4H8_eVWShaMO6asNLg).
 Download the datasets using the following script, four datasets and the raw average font style glyph image are available.
 > It may take a while, please be patient
 ```
