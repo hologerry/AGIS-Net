@@ -2,9 +2,9 @@
 
 ## Introduction
 
-This is the official PyTorch implementation of the Artistic Glyph Image Synthesis via One-Stage Few-Shot Learning.
+This is the official PyTorch implementation of the **Artistic Glyph Image Synthesis via One-Stage Few-Shot Learning**.
 
-[paper](http://arxiv.org/abs/1910.04987) | [supplementary material](AGIS-Net_supplementary_material.pdf)
+[paper](http://arxiv.org/abs/1910.04987) | [supplementary material](paper/AGIS-Net_supplementary_material.pdf)
 
 ## Abstract
 
@@ -18,7 +18,7 @@ Skip Connection               |  Local Discriminator
 :----------------------------:|:-------------------------:
 ![skip-connection](imgs/skipconnection.png)  |  ![local-discriminator](imgs/localpatch.png)
 
-## Demo
+## Some Results
 
 ![comparison](imgs/comparison.png)
 
