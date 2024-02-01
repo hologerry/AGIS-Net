@@ -131,7 +131,7 @@ Special thanks to the following works for sharing their code and dataset.
 If you find our work is helpful, please cite our paper:
 ```
 @article{Gao2019Artistic,
-  author = {Yue, Gao and Yuan, Guo and Zhouhui, Lian and Yingmin, Tang and Jianguo, Xiao},
+  author = {Gao, Yue and Guo, Yuan and Lian, Zhouhui and Tang, Yingmin and Xiao, Jianguo},
   title = {Artistic Glyph Image Synthesis via One-Stage Few-Shot Learning},
   journal = {ACM Trans. Graph.},
   issue_date = {November 2019},
